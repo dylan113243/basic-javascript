@@ -1,3 +1,1 @@
-// Only change code below this line
-const myName = "Dylan";
-const myStr = "My name is " + myName + " and I am well!";
+const myArray = [["Bulls", 23], ["White Sox", 45]];
