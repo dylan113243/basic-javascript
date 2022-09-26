@@ -1,4 +1,8 @@
-const myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
+function testEqual(val) {
+    if (val == 12) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
 
-myArray.unshift(["Paul", 35]);
+testEqual(10);
