@@ -1,8 +1,10 @@
-function testStrict(val) {
-    if (val === 7) {
-        return "Equal";
+function testLogicalOr(val) {
+
+    if (val < 10 || val > 20) {
+        return "Outside";
     }
-    return "Not Equal";
+
+    return "Inside";
 }
 
-testStrict(10);
+testLogicalOr(15);
