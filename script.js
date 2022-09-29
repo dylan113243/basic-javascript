@@ -1,10 +1,5 @@
-function testLogicalOr(val) {
-
-    if (val < 10 || val > 20) {
-        return "Outside";
-    }
-
-    return "Inside";
+function isLess(a, b) {
+    return a < b;
 }
 
-testLogicalOr(15);
+isLess(10, 15);
