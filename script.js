@@ -1,5 +1,18 @@
-function isLess(a, b) {
-    return a < b;
+function phoneticLookup(val) {
+    let result = "";
+
+    const lookup = {
+        "alpha":"Adams",
+        "bravo":"Boston",
+        "charlie":"Chicago",
+        "delta":"Denver",
+        "echo":"Easy",
+        "foxtrot":"Frank"
+    };
+    
+    result = lookup[val];
+
+    return result;
 }
 
-isLess(10, 15);
+phoneticLookup("charlie");
